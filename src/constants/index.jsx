@@ -20,9 +20,9 @@ export const navigation = [
   {
     title: "Company",
     links: [
-      { title: "About", href: "/about" },
-      { title: "Process", href: "/process" },
-      { title: "Blog", href: "/blog" },
+      { title: "Sobre nosotros", href: "/about" },
+      { title: "Toma un paso", href: "/process" },
+      { title: "Grupos", href: "/blog" },
       { title: "Contact us", href: "/contact" },
     ],
   },
