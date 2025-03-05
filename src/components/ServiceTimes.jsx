@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-function Office({ name, children, invert = false }) {
+function ServiceTime({ name, children, invert = false }) {
   return (
     <address
       className={clsx(
@@ -17,18 +17,18 @@ function Office({ name, children, invert = false }) {
   );
 }
 
-const Offices = ({ invert = false, ...props }) => {
+const ServiceTimes = ({ invert = false, ...props }) => {
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="Charlotte" invert={invert}>
-          7122 Robinson Church Rd
+        <ServiceTime name="Sunday" invert={invert}>
+          Escuela Dominical 9:45AM
           <br />
-          Charlotte, NC 28215
-        </Office>
+          Culto General 11:00AM
+        </ServiceTime>
       </li>
     </ul>
   );
 };
 
-export default Offices;
+export default ServiceTimes;
