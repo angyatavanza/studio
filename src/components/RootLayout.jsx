@@ -10,6 +10,7 @@ import { IoMdClose } from "react-icons/io";
 import Button from "./Button";
 import clsx from "clsx";
 import Offices from "./Offices";
+import ServiceTimes from "./ServiceTimes";
 import SocialMedia from "./SocialMedia";
 import Footer from "./Footer";
 
@@ -85,8 +86,8 @@ const Navigation = () => {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
+        <NavigationItem href="/about">Quiénes Somos</NavigationItem>
         <NavigationItem href="/work">Experiencias</NavigationItem>
-        <NavigationItem href="/about">Sobre Nosotros</NavigationItem>
       </NavigationRow>
       <NavigationRow>
         <NavigationItem href="/process">Da Un Paso</NavigationItem>
@@ -167,17 +168,17 @@ const RootLayoutInner = ({ children }) => {
               <Container>
                 <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
                   <div>
-                    <h2 className="font-display text-base font-semibold text-white">
-                      Our offices
+                  <h2 className="font-display text-base font-semibold text-white">
+                    Nuestra ubicacion y horario de servicios 
                     </h2>
                     <Offices
                       invert
-                      className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2"
+                      className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2"
                     />
                   </div>
                   <div className="sm:border-l sm:border-transparent sm:pl-16">
                     <h2 className="font-display text-base font-semibold text-white">
-                      Follow us
+                      Síguenos
                     </h2>
                     <SocialMedia className="mt-6" invert />
                   </div>

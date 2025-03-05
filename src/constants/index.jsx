@@ -2,11 +2,22 @@ import { SocialMediaProfiles } from "@/components/SocialMedia";
 
 export const navigation = [
   {
-    title: "Work",
+    title: "Quiénes Somos",
     links: [
-      { title: "AH MANA3RAF", href: "/work/amazonclone" },
-      { title: "AH MANA3RAF", href: "/work/bazar" },
-      { title: "AH MANA3RAF", href: "/work/blog101" },
+      { title: "Sobre nosotros", href: "/about" },
+      { title: "Purpose, Strategy & Values", href: "/process" },
+      { title: "Our Pastor", href: "/blog" },
+      { title: "Our Team", href: "/contact" },
+      { title: "Contáctanos", href: "/contact" },
+    ],
+  },
+
+  {
+    title: "Experiencias",
+    links: [
+      { title: "Último Mensaje", href: "/work/amazonclone" },
+      { title: "Horario de Servicios", href: "/work/bazar" },
+      { title: "Archivo de Mensajes", href: "/work/blog101" },
       {
         title: (
           <>
@@ -18,12 +29,26 @@ export const navigation = [
     ],
   },
   {
-    title: "Company",
+    title: "Conectate",
     links: [
-      { title: "Sobre nosotros", href: "/about" },
       { title: "Da un paso", href: "/process" },
       { title: "Grupos", href: "/blog" },
-      { title: "Contáctanos", href: "/contact" },
+      { title: "Servir", href: "/blog" },
+      { title: "Eventos", href: "/blog" }
+    ],
+  },
+  {
+    title: "Recursos",
+    links: [
+      { title: "Recursos", href: "/about" },
+      { title: "Recursos comunidad", href: "/process" },
+    ],
+  },
+  {
+    title: "Haz tu Donación",
+    links: [
+      { title: "Haz tu Donación en Linea", href: "/about" },
+      { title: "Preguntas Frecuentes", href: "/process" },
     ],
   },
   {

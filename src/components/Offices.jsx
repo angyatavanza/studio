@@ -27,6 +27,13 @@ const Offices = ({ invert = false, ...props }) => {
           Charlotte, NC 28215
         </Office>
       </li>
+      <li>
+        <Office name="Sunday" invert={invert}>
+          Escuela Dominical 9:45AM
+          <br />
+          Culto General 11:00AM
+        </Office>
+      </li>
     </ul>
   );
 };
