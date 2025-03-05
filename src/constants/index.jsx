@@ -21,9 +21,9 @@ export const navigation = [
     title: "Company",
     links: [
       { title: "Sobre nosotros", href: "/about" },
-      { title: "Toma un paso", href: "/process" },
+      { title: "Da un paso", href: "/process" },
       { title: "Grupos", href: "/blog" },
-      { title: "Contact us", href: "/contact" },
+      { title: "Contáctanos", href: "/contact" },
     ],
   },
   {

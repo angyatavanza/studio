@@ -5,10 +5,10 @@ import { TagList, TagListItem } from "./TagList";
 
 const Discover = () => {
   return (
-    <Section title="Discover" image={{ src: imageWhiteboard, shape: 1 }}>
+    <Section title="Descubre" image={{ src: imageWhiteboard, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          We work closely with our clients to understand their{" "}
+        Ayudará a entender el funcionamiento básico de LA VOZ. Está diseñada para descubrir la misión de la iglesia, los valores fundamentales, y estrategia; ambas cosas ayudan a comprometerse en la expansión del reino en esta comunidad de fe.We work closely with our clients to understand their{" "}
           <strong className="font-semibold text-neutral-950">needs</strong> and
           goals, embedding ourselves in their every day operations to understand
           what makes their business tick.

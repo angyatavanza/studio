@@ -27,11 +27,11 @@ const Header = ({
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"} aria-label="Home">
-          <Logo invert={invert}>Abdullah Agency</Logo>
+          <Logo invert={invert}>La Voz</Logo>
         </Link>
         <div className="flex items-center gap-x-8">
           <Button href={"/contact"} invert={invert}>
-            Contact us
+            Contacto
           </Button>
           <button
             ref={toggleRef}
@@ -89,7 +89,7 @@ const Navigation = () => {
         <NavigationItem href="/about">Sobre Nosotros</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/process">Toma Un Paso</NavigationItem>
+        <NavigationItem href="/process">Da Un Paso</NavigationItem>
         <NavigationItem href="/blog">Grupos</NavigationItem>
       </NavigationRow>
     </nav>
