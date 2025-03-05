@@ -31,7 +31,7 @@ export const navigation = [
   {
     title: "Conectate",
     links: [
-      { title: "Da un paso", href: "/process" },
+      { title: "Da tu paso", href: "/process" },
       { title: "Grupos", href: "/blog" },
       { title: "Servir", href: "/blog" },
       { title: "Eventos", href: "/blog" }

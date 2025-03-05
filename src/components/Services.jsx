@@ -10,13 +10,14 @@ const Services = () => {
   return (
     <>
       <SectionIntro
-        eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        eyebrow="Ministerios"
+        title="Fuimos creados para estar en comunidad unos con otros."
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+          Nunca es el plan de Dios que nos sintamos aislados y solos.
+          El propósito detrás de los ministerios de La Voz es ayudarte a encontrar conexiónes significativas que te invitan a ser realmente honesto acerca de lo que está sucediendo en tu vida y en tu corazón. En La Voz, ofrecemos cinco experiencias de 
+          grupo: Misiones, Mujeres, Varones, Jovenes, y Kids.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -32,24 +33,20 @@ const Services = () => {
           </div>
           {/* List item */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="Misiones">
+              El ministerio, Misiones La Voz, comparte el amor de Jesús, suple necesidades físicas y apoya el inicio de siembra de Iglesias en diferentes países.
             </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            <ListItem title="Mujeres">
+              El ministerio, Mujeres La Voz, nace en el corazón de Dios para edificar la vida emocional y espiritual de las mujeres.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="Varones">
+              El ministerio, Varones La Voz, nace en el corazón de Dios para edificar la vida emocional y espiritual de los varones.
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Jóvenes">
+              El ministerio, Jóvenes La Voz, nace en el corazón de Dios para edificar la vida emocional y espiritual de las jóvenes.
+            </ListItem>
+            <ListItem title="Kids">
+              El ministerio, Kids La Voz, nace en el corazón de Dios para edificar la vida emocional y espiritual de las kids.
             </ListItem>
           </List>
         </div>

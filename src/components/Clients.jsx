@@ -11,7 +11,7 @@ import Container from "./Container";
 import FadeIn, { FadeInStagger } from "./FadeIn";
 
 const clients = [
-  ["Phobia", logoPhobiaLight],
+  ["Pastor Hugo", logoPhobiaLight],
   ["Family Fund", logoFamilyFund],
   ["Unseal", logoUnseal],
   ["Mail Smirk", logoMailSmirk],
@@ -27,10 +27,11 @@ const Clients = () => {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We have worked with hundreds of amazing people
+          ¡Bienvenidos a la Iglesia La Voz! Nuestros servicios dominicales ofrecen adoración y enseñanza bíblica para todas las edades. Desde niños hasta adultos, somos una comunidad apasionada por conectar la gente con su fe.
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
+        {/*
         <FadeInStagger faster>
           <ul
             role="list"
@@ -45,6 +46,7 @@ const Clients = () => {
             ))}
           </ul>
         </FadeInStagger>
+        */} 
       </Container>
     </div>
   );
