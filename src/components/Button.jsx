@@ -6,8 +6,8 @@ const Button = ({ invert, href, className, children, ...props }) => {
     className,
     "inline-flex rounded-full px-4 py-1.5 text-sm font-semibold transition",
     invert
-      ? "bg-white text-neutral-950 hover:bg-neutral-200"
-      : "bg-purple-800 text-white hover:bg-neutral-800"
+      ? "bg-white text-neutral-950 hover:bg-purple-200"
+      : "bg-purple-800 text-white hover:bg-purple-600"
   );
 
   let inner = <span>{children}</span>;
