@@ -29,7 +29,7 @@ const Clients = () => {
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
           ¡Bienvenidos a la Iglesia La Voz! Nuestros servicios dominicales ofrecen adoración y enseñanza bíblica para todas las edades. Desde niños hasta adultos, somos una comunidad apasionada por conectar la gente con su fe.
           </h2>
-          <div className="h-px flex-auto bg-neutral-800" />
+          <div className="h-px flex-auto bg-purple-600" />
         </FadeIn>
         {/*
         <FadeInStagger faster>
