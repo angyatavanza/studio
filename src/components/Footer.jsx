@@ -40,7 +40,7 @@ const NewsletterForm = () => {
           <button
             type="submit"
             aria-label="Submit"
-            className="flex aspect-square h-full items-center justify-center rounded-xl bg-purple-800 text-white transition hover:purple-500"
+            className="flex aspect-square h-full items-center justify-center rounded-xl bg-purple-800 text-white transition hover:bg-purple-500"
           >
             <ArrowIcon className="w-4" />
           </button>
