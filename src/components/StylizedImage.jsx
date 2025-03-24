@@ -35,7 +35,7 @@ const StylizedImage = ({ shape = 0, className, ...props }) => {
             <foreignObject width={width} height={height}>
               <Image
                 alt=""
-                className="w-full bg-neutral-100 object-cover"
+                className="w-full bg-purple-100 object-cover"
                 style={{ aspectRatio: `${width} / ${height}` }}
                 {...props}
               />
