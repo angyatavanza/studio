@@ -50,8 +50,8 @@ const Header = ({
               className={clsx(
                 "h-6 w-6",
                 invert
-                  ? "fill-white group-hover:fill-purple-200"
-                  : "fill-purple-800 group-hover:fill-purple-500"
+                  ? "fill-white group-hover:fill-neutral-200"
+                  : "fill-purple-800 group-hover:fill-neutral-500"
               )}
             />
           </button>
