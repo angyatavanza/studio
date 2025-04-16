@@ -21,14 +21,14 @@ const Offices = ({ invert = false, ...props }) => {
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="Charlotte" invert={invert}>
+        <Office name="Ubicación" invert={invert}>
           7122 Robinson Church Rd
           <br />
           Charlotte, NC 28215
         </Office>
       </li>
       <li>
-        <Office name="Sunday" invert={invert}>
+        <Office name="Tiempos de servicios" invert={invert}>
           Escuela Dominical 9:45AM
           <br />
           Culto General 11:00AM

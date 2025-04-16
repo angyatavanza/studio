@@ -9,21 +9,20 @@ const ContactDetails = () => {
   return (
     <FadeIn>
       <h2 className="font-display text-base font-semibold text-neutral-950">
-        Nuestra ubicacion y horario de servicios
+        Nuestra ubicacion y tiempos de servicios
       </h2>
       <p className="mt-6 text-base text-neutral-600">
-        Prefer doing things in person? We don’t but we have to list our
-        addresses here for legal reasons.
+        Le invitamos a unirse a nuestros estudios bíblicos entre semana y al servicio general del Domingo.
       </p>
       <Offices className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
       <Border className="mt-16 pt-16">
         <h2 className="font-display text-base font-semibold text-neutral-950">
-          Email us
+          Ponte en contacto
         </h2>
         <dl className="mt-6 grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
           {[
-            ["Careers", "reactjsbd.com"],
-            ["Press", "noorjsdivs@gmail.com"],
+            ["Correo electrónico", "info@ministerioslavoz.com"],
+            ["Teléfono", "(704) 537-7133"],
           ].map(([label, email]) => (
             <div key={email}>
               <dt className="font-semibold text-neutral-950">{label}</dt>

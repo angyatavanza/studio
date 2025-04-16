@@ -16,7 +16,7 @@ export const navigation = [
     title: "Experiencias",
     links: [
       { title: "Último Mensaje", href: "/work/amazonclone" },
-      { title: "Horario de Servicios", href: "/work/bazar" },
+      { title: "Tiempos de Servicios", href: "/work/bazar" },
       { title: "Archivo de Mensajes", href: "/work/blog101" },
       {
         title: (
