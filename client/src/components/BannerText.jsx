@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react';
+import FadeIn from "./FadeIn";
     
 
 export default function Example() {
@@ -12,7 +13,7 @@ export default function Example() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative bg-white rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing my next tutorial.{' '}
+              Bienvenidos a La Voz De La Esperanza.{' '}
               <a href="https://medium.com/@bnhminh_38309" className="font-semibold text-indigo-600">
                 <span aria-hidden="true" className="absolute inset-0" />
                 Read more <span aria-hidden="true">&rarr;</span>
@@ -20,12 +21,14 @@ export default function Example() {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-              MinhHub
-            </h1>
-            <p className="mt-8 text-pretty text-lg font-medium text-white sm:text-xl/8">
-            Building intelligent solutions today for a smarter, better future.
-            </p>
+            <FadeIn className="max-w-3xl">
+              <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+                Llevamos esperanza a la ciudad de Charlotte
+              </h1>
+              <p className="mt-8 text-pretty text-lg font-medium text-white sm:text-xl/8">
+                Bienvenidos a La Voz De La Esperanza.
+              </p>
+            </FadeIn>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="https://www.linkedin.com/in/binhminhman/"

@@ -12,10 +12,10 @@ export default function Home() {
     <main className="text-black">
       <Container className="mt-24 sm:mt-32">
         <Hero />
-        <FadeIn className="max-w-3xl">
-          {/*<p className="mt-6 text-xl text-neutral-600">
+        {/*<FadeIn className="max-w-3xl">
+          <p className="mt-6 text-xl text-neutral-600">
             Bienvenidos a La Voz De La Esperanza
-          </p>*/} 
+          </p>
           
           <h1 className="font-display text-1xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-3xl">
             Bienvenidos a La Voz De La Esperanza
@@ -23,7 +23,7 @@ export default function Home() {
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
             Llevamos esperanza a la ciudad de Charlotte y sus alrededores. 
           </h1>
-        </FadeIn>
+        </FadeIn>*/} 
       </Container>
       <Clients />
       <Testimonials

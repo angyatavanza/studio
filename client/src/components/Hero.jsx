@@ -1,7 +1,7 @@
 // Hero.jsx
 import React from 'react';
-import Header from './Header';
 import Banner from './BannerText';
+import video from '../../public/IntroVid.mp4';
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover -z-0"
-        src={process.env.PUBLIC_URL + '/IntroVid.mp4'}  // Ensure this path is correct
+        src={video}  // Ensure this path is correct
         autoPlay
         muted
         loop
