@@ -32,25 +32,25 @@ const Header = ({
         </Link>
         <div className="flex items-center gap-x-8">
           <Link
-            href={"/blog"}
+            href={"/about"}
             className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
           >
             Sobre nosotros
           </Link>
           <Link
-            href={"/portfolio"}
+            href={"/experiences"}
             className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
           >
             Experiencias
           </Link>
           <Link
-            href={"/about"}
+            href={"/groups"}
             className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
           >
             Grupos
           </Link>
           <Link
-            href={"/about"}
+            href={"/growth"}
             className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
           >
             Tu Siguiente Paso
@@ -110,12 +110,12 @@ const Navigation = () => {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/about">Quiénes Somos</NavigationItem>
-        <NavigationItem href="/experiences">Experiencias</NavigationItem>
+        <NavigationItem href="/events">Eventos"</NavigationItem>
+        <NavigationItem href="/serve">Servir</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/growth">Da Tu Paso</NavigationItem>
-        <NavigationItem href="/blog">Grupos</NavigationItem>
+        <NavigationItem href="/resources">Recursos</NavigationItem>
+        <NavigationItem href="/give">Haz tu Donación</NavigationItem>
       </NavigationRow>
     </nav>
   );
