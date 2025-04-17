@@ -31,6 +31,30 @@ const Header = ({
           <Logo invert={invert}>La Voz</Logo>
         </Link>
         <div className="flex items-center gap-x-8">
+          <Link
+            href={"/blog"}
+            className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+          >
+            Sobre nosotros
+          </Link>
+          <Link
+            href={"/portfolio"}
+            className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+          >
+            Experiencias
+          </Link>
+          <Link
+            href={"/about"}
+            className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+          >
+            Grupos
+          </Link>
+          <Link
+            href={"/about"}
+            className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+          >
+            Tu Siguiente Paso
+          </Link>
           <Button href={"/contact"} invert={invert}>
             Contacto
           </Button>
@@ -87,10 +111,10 @@ const Navigation = () => {
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
         <NavigationItem href="/about">Quiénes Somos</NavigationItem>
-        <NavigationItem href="/work">Experiencias</NavigationItem>
+        <NavigationItem href="/experiences">Experiencias</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/process">Da Tu Paso</NavigationItem>
+        <NavigationItem href="/growth">Da Tu Paso</NavigationItem>
         <NavigationItem href="/blog">Grupos</NavigationItem>
       </NavigationRow>
     </nav>
@@ -168,8 +192,8 @@ const RootLayoutInner = ({ children }) => {
               <Container>
                 <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
                   <div>
-                  <h2 className="font-display text-base font-semibold text-white">
-                    Nuestra ubicacion y tiempos de servicios 
+                    <h2 className="font-display text-base font-semibold text-white">
+                      Nuestra ubicacion y tiempos de servicios
                     </h2>
                     <Offices
                       invert
