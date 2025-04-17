@@ -4,10 +4,10 @@ export const navigation = [
   {
     title: "Quiénes Somos",
     links: [
-      { title: "Sobre nosotros", href: "/about" },
-      { title: "Purpose, Strategy & Values", href: "/growth" },
-      { title: "Our Pastor", href: "/blog" },
-      { title: "Our Team", href: "/contact" },
+      { title: "Sobre Nosotros", href: "/about" },
+      { title: "Propósito, Estrategia y Valores", href: "/purpose" },
+      { title: "Nuestro Pastor", href: "/our-pastor" },
+      { title: "Nuestro Equipo", href: "/staff" },
       { title: "Contáctanos", href: "/contact" },
     ],
   },
@@ -15,44 +15,44 @@ export const navigation = [
   {
     title: "Experiencias",
     links: [
-      { title: "Último Mensaje", href: "/experiences/amazonclone" },
-      { title: "Tiempos de Servicios", href: "/experiences/bazar" },
-      { title: "Archivo de Mensajes", href: "/experiences/blog101" },
+      { title: "Experiencias", href: "/experiences" },
+      { title: "Último Mensaje", href: "/messages/amazonclone" },
+      { title: "Tiempos de Servicios", href: "/service-times" },
       {
         title: (
           <>
-            See all <span aria-hidden="true">&rarr;</span>
+            Ver Archivo de Mensajes <span aria-hidden="true">&rarr;</span>
           </>
         ),
-        href: "/experiences",
+        href: "/all-experiences",
       },
     ],
   },
   {
     title: "Conectate",
     links: [
-      { title: "Da tu paso", href: "/growth" },
-      { title: "Grupos", href: "/blog" },
-      { title: "Servir", href: "/blog" },
-      { title: "Eventos", href: "/blog" }
+      { title: "Jornada de Crecimiento", href: "/growth" },
+      { title: "Grupos", href: "/groups" },
+      { title: "Servir", href: "/serve" },
+      { title: "Eventos", href: "/events" }
     ],
   },
   {
     title: "Recursos",
     links: [
-      { title: "Recursos", href: "/about" },
-      { title: "Recursos comunidad", href: "/growth" },
+      { title: "Recursos", href: "/resources" },
+      { title: "Recursos Comunitarios", href: "/community-resources" },
     ],
   },
   {
     title: "Haz tu Donación",
     links: [
-      { title: "Haz tu Donación en Linea", href: "/about" },
-      { title: "Preguntas Frecuentes", href: "/growth" },
+      { title: "Haz tu Donación en Linea", href: "/give" },
+      { title: "Preguntas Frecuentes", href: "/give/faqs" },
     ],
   },
   {
-    title: "Connect",
+    title: "Síguenos",
     links: SocialMediaProfiles,
   },
 ];

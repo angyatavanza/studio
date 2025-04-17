@@ -3,7 +3,7 @@ import MiniCard from '../components/miniCard';
 import BlogHero from '../components/BlogHero';
 import blogInfo from '../constants/blogInfo'; // Import blogInfo
 
-function BlogPage() {
+function AllExperiencesPage() {
   // Step 1: Separate pinned (labeled) and non-pinned articles
   const pinnedArticles = blogInfo.filter(article => article.featureLabel);
   const nonPinnedArticles = blogInfo.filter(article => !article.featureLabel);
@@ -52,4 +52,4 @@ function BlogPage() {
   );
 }
 
-export default BlogPage;
+export default AllExperiencesPage;

@@ -1,7 +1,7 @@
 // About.js
 import React from 'react';
 
-const About = () => {
+const LatestMessagePage = () => {
   return (
     <section>
       {/* Container */}
@@ -100,4 +100,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default LatestMessagePage;

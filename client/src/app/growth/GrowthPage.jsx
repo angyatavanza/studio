@@ -7,7 +7,7 @@ import PageIntro from "@/components/PageIntro";
 import Values from "../../components/Values";
 import React from "react";
 
-const ProcessPage = () => {
+const GrowthPage = () => {
   return (
     <>
       <PageIntro eyebrow="Nuestro proceso" title="Cómo trabajamos">
@@ -35,4 +35,4 @@ const ProcessPage = () => {
   );
 };
 
-export default ProcessPage;
+export default GrowthPage;

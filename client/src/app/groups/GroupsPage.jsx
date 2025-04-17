@@ -1,6 +1,6 @@
 import PageIntro from "@/components/PageIntro";
 
-const BlogPage = () => {
+const GroupsPage = () => {
   return (
     <>
       <PageIntro eyebrow="Blog" title="The latest articles and news">
@@ -13,4 +13,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default GroupsPage;

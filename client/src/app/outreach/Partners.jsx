@@ -1,7 +1,7 @@
 import PageIntro from "@/components/PageIntro";
 import React from "react";
 
-const WorkPage = () => {
+const PartnersPage = () => {
   return (
     <>
       <PageIntro
@@ -18,4 +18,4 @@ const WorkPage = () => {
   );
 };
 
-export default WorkPage;
+export default PartnersPage;

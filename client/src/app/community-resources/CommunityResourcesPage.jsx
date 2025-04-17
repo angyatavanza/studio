@@ -3,7 +3,7 @@ import MiniCard from '../components/miniCard';
 import HeroPortfolio from '../components/HeroPortfolio';
 import portfolioInfo from '../constants/portfolioInfo'; // Import portfolioInfo
 
-function PortfolioPage() {
+function CommunityResourcesPage() {
   // Step 1: Separate pinned (labeled) and non-pinned projects
   const pinnedProjects = portfolioInfo.filter(project => project.featureLabel);
   const nonPinnedProjects = portfolioInfo.filter(project => !project.featureLabel);
@@ -39,4 +39,4 @@ function PortfolioPage() {
   );
 }
 
-export default PortfolioPage;
+export default CommunityResourcesPage;
