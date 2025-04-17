@@ -110,7 +110,7 @@ const Navigation = () => {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/events">Eventos"</NavigationItem>
+        <NavigationItem href="/events">Eventos</NavigationItem>
         <NavigationItem href="/serve">Servir</NavigationItem>
       </NavigationRow>
       <NavigationRow>
