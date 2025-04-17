@@ -89,7 +89,7 @@ const LatestMessagePage = () => {
           {/* Image Placeholder */}
           <div className="min-h-[530px] overflow-hidden rounded-md bg-gray-100">
             <img
-              src={require('../assets/MinhPic.jpg')}
+              src={require('../assets/Exterior_IMG_1119.jpg')}
               alt="Minh"
               className="w-full h-full object-cover"
             />

@@ -1,7 +1,7 @@
 import React from 'react';
-import MiniCard from '../components/miniCard';
-import BlogHero from '../components/BlogHero';
-import blogInfo from '../constants/blogInfo'; // Import blogInfo
+import MiniCard from '../../components/miniCard';
+import BlogHero from '../../components/BlogHero';
+import blogInfo from '../../constants/blogInfo'; // Import blogInfo
 
 function EventsPage() {
   // Step 1: Separate pinned (labeled) and non-pinned articles

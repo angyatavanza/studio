@@ -1,5 +1,7 @@
 // About.js
 import React from 'react';
+import imageLaptop from "@/images/laptop.jpg";
+import exterior from '../../assets/Exterior_IMG_1119.jpg';
 
 const OurPastorPage = () => {
   return (
@@ -71,25 +73,12 @@ const OurPastorPage = () => {
                 />
                 <p>Email Me</p>
               </a>
-              <a
-                href={require('../assets/resume.pdf')} // Link to your resume PDF file
-                target="_blank" // Open in a new tab
-                rel="noopener noreferrer" // Security best practice for external links
-                className="flex gap-4 rounded-md border border-solid border-black px-6 py-3"
-              >
-                <img
-                  src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b14704c8616ad7ba080fe0_Note.svg"
-                  alt=""
-                  className="inline-block"
-                />
-                <p>Resume</p>
-              </a>
             </div>
           </div>
           {/* Image Placeholder */}
           <div className="min-h-[530px] overflow-hidden rounded-md bg-gray-100">
             <img
-              src={require('../assets/MinhPic.jpg')}
+              src={require('../../assets/Exterior_IMG_1119.jpg')}
               alt="Minh"
               className="w-full h-full object-cover"
             />

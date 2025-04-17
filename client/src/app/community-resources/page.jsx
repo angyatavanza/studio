@@ -1,7 +1,7 @@
 import React from 'react';
-import MiniCard from '../components/miniCard';
-import HeroPortfolio from '../components/HeroPortfolio';
-import portfolioInfo from '../constants/portfolioInfo'; // Import portfolioInfo
+import MiniCard from '../../components/miniCard';
+import HeroPortfolio from '../../components/HeroPortfolio';
+import portfolioInfo from '../../constants/portfolioInfo'; // Import portfolioInfo
 
 function CommunityResourcesPage() {
   // Step 1: Separate pinned (labeled) and non-pinned projects
