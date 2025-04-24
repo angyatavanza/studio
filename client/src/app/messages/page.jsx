@@ -38,7 +38,7 @@ const LatestMessagePage = () => {
                 <strong>2024:</strong> Built automated apps at <strong>NorthStar</strong> for data management.
             </p>
             <p>
-                <strong>2024:</strong> Thesis on AI portfolio strategies, earned <strong>A</strong>.
+                <strong>2024:</strong> Thesis on AI Faq strategies, earned <strong>A</strong>.
             </p>
             <p>
                 <strong>2021:</strong> <strong>Valedictorian</strong> in International Business, GPA <strong>3.82/4</strong>, Math Olympiad prize.

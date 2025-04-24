@@ -23,7 +23,7 @@ const Step2 = () => {
         <p>
           Our account managers are trained to only reply to client emails after
           9pm, several days after the initial email. This reinforces the general
-          aura that we are very busy and dissuades clients from asking for
+          aura that we are very busy and dissuades staff from asking for
           changes.
         </p>
       </div>

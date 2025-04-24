@@ -2,7 +2,7 @@ import React from "react";
 import Container from "./Container";
 import FadeIn from "./FadeIn";
 import Button from "./Button";
-import Offices from "./Offices";
+import ServiceTimes from "./ServiceTimes";
 
 const ContactSection = () => {
   return (
@@ -21,7 +21,7 @@ const ContactSection = () => {
             <h3 className="font-display text-base font-semibold text-white">
               Nuestra ubicacion y tiempos de servicios
             </h3>
-            <Offices
+            <ServiceTimes
               invert
               className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2"
             />

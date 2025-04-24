@@ -11,8 +11,8 @@ const portfolioInfo = [
     },
     {
       imageUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQEune2m0kFatw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1730881733277?e=1733479200&v=beta&t=yuIquC9CqfBAxyGk0hQ9EAn8xitUyGb3s3z2cLiqcAE",
-      title: "Portfolio Website",
-      description: "A clean and modern portfolio website showcasing projects, blog, and achievements, built with React and Tailwind CSS.",
+      title: "Faq Website",
+      description: "A clean and modern Faq website showcasing projects, blog, and achievements, built with React and Tailwind CSS.",
       link: "https://github.com/ducbinhminhman/Nov24_PortfolioWebsite",
       date: "2024-11-09",
       featureLabel: "Pinned"
@@ -48,9 +48,9 @@ const portfolioInfo = [
     },
     {
       imageUrl: "https://plus.unsplash.com/premium_photo-1701121214648-245e9c86cc92?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "Reinforcement Learning for Portfolio Optimization",
-      description: "A reinforcement learning project for optimizing portfolio allocation using models like PPO and DDPG, with Gym environment for financial data.",
-      link: "https://github.com/ducbinhminhman/Reinforcement-Learning-for-Portfolio-Optimization",
+      title: "Reinforcement Learning for Faq Optimization",
+      description: "A reinforcement learning project for optimizing Faq allocation using models like PPO and DDPG, with Gym environment for financial data.",
+      link: "https://github.com/ducbinhminhman/Reinforcement-Learning-for-Faq-Optimization",
       date: "2024-11-10"
     },
     {

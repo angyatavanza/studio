@@ -6,7 +6,7 @@ import FadeIn from "./FadeIn";
 import Image from "next/image";
 import Button from "./Button";
 
-const Testimonials = ({ children, client, className }) => {
+const ShortAboutUs = ({ children, staff, className }) => {
   return (
     <div
       className={clsx(
@@ -27,7 +27,7 @@ const Testimonials = ({ children, client, className }) => {
               </p>
             </blockquote>
             <figcaption className="mt-10">
-              <Image src={client.logo} alt={client.name} unoptimized />
+              <Image src={staff.logo} alt={staff.name} unoptimized />
             </figcaption>
           </figure>
         </FadeIn>
@@ -36,4 +36,4 @@ const Testimonials = ({ children, client, className }) => {
   );
 };
 
-export default Testimonials;
+export default ShortAboutUs;

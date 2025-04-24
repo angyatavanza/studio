@@ -11,12 +11,12 @@ const GivePage = () => {
       <PageIntro eyebrow="About us" title="Our strength is collaboration">
         <p>
           We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          puts our staff at the center of everything we do.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
             Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
+            studios were charging staff double what an in-house team would
             cost. Since the beginning, we have been committed to doing things
             differently by charging triple instead.
           </p>
@@ -31,7 +31,7 @@ const GivePage = () => {
       <Container className="mt-16">
         <StatList>
           <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
+          <StatListItem value="52" label="Placated staff" />
           <StatListItem value="$25M" label="Invoices billed" />
         </StatList>
       </Container>

@@ -23,9 +23,9 @@ To run the La Voz website locally, follow these steps:
    git clone https://github.com/your-username/abdullah-agency.git
    ```
 
-# Portfolio Website
+# Faq Website
 
-This repository contains the code for my personal portfolio website. The website showcases my projects, achievements, and contact information in a user-friendly layout.
+This repository contains the code for my personal Faq website. The website showcases my projects, achievements, and contact information in a user-friendly layout.
 
 ![Cover Image](./client/src/assets/Cover.png)
 
@@ -44,12 +44,12 @@ This repository contains the code for my personal portfolio website. The website
 
 ## Overview
 
-This portfolio website is designed to present my professional background, project experience, and skills in a visually appealing and organized format. The website is structured with multiple sections, each highlighting a different aspect of my work and achievements.
+This Faq website is designed to present my professional background, project experience, and skills in a visually appealing and organized format. The website is structured with multiple sections, each highlighting a different aspect of my work and achievements.
 
 ## Features
 
 - **Hero Section**: A welcoming section introducing myself.
-- **Portfolio Section**: Highlights a selection of my most significant projects.
+- **Faq Section**: Highlights a selection of my most significant projects.
 - **Blog Section**: Displays insights and articles relevant to my field.
 - **About Section**: Provides background information about my professional journey.
 - **Recommendations Section**: Shows testimonials from people I have worked with.
@@ -69,12 +69,12 @@ To set up this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/yourusername/Faq-website.git
    ```
    
 2. **Navigate to the project folder**:
    ```bash
-   cd portfolio-website
+   cd Faq-website
    ```
 
 3. **Install dependencies**:
@@ -94,7 +94,7 @@ To set up this project locally, follow these steps:
 The project is organized as follows:
 
 ```
-portfolio-website/
+Faq-website/
 ├── public/                   # Public assets and favicon
 ├── src/
 │   ├── assets/               # Images, logos, and other media
@@ -104,7 +104,7 @@ portfolio-website/
 │   │   ├── ContactUs.js      # Contact form section
 │   │   ├── Footer.js         # Footer with social links
 │   │   ├── Hero.js           # Hero section
-│   │   ├── Portfolio.js      # Projects showcase
+│   │   ├── Faq.js      # Projects showcase
 │   │   ├── RecQuo1.js        # Recommendation quote 1
 │   │   └── RecQuo2.js        # Recommendation quote 2
 │   ├── App.js                # Main App component
@@ -118,7 +118,7 @@ portfolio-website/
 Each section is built as a separate component to maintain modularity and reusability.
 
 - **Hero**: The introductory section at the top of the website.
-- **Portfolio**: Displays key projects, using components like `Card` and `ReverseCard` for layout.
+- **Faq**: Displays key projects, using components like `Card` and `ReverseCard` for layout.
 - **Blog**: Lists recent blog posts or insights.
 - **About**: Information about my professional journey and background.
 - **Recommendations**: Displays quotes from colleagues or supervisors.

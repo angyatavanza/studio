@@ -1,10 +1,10 @@
-import Clients from "@/components/Clients";
+import Staff from "@/components/Staff";
 import ContactSection from "@/components/ContactSection";
 import Container from "../components/Container";
 import FadeIn from "../components/FadeIn";
-import Services from "../components/Services";
-import Testimonials from "@/components/Testimonials";
-import logoPhobiaDark from "@/images/clients/phobia/logo-dark.svg";
+import Groups from "../components/Groups";
+import ShortAboutUs from "@/components/ShortAbout";
+import logoPhobiaDark from "@/images/staff/phobia/logo-dark.svg";
 import Hero from "@/components/Hero";
 
 export default function Home() {
@@ -25,15 +25,15 @@ export default function Home() {
           </h1>
         </FadeIn>*/} 
       </Container>
-      <Clients />
-      <Testimonials
+      <Staff />
+      <ShortAboutUs
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{  }}
+        staff={{  }}
            
       >
         ¡Bienvenidos a la Iglesia La Voz! Nuestros servicios dominicales ofrecen adoración y enseñanza bíblica para todas las edades. Desde niños hasta adultos, somos una comunidad apasionada por conectar la gente con su fe.
-      </Testimonials>
-      <Services />
+      </ShortAboutUs>
+      <Groups />
       <ContactSection />
     </main>
   );

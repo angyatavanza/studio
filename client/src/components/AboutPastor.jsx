@@ -35,7 +35,7 @@ const AboutPastor = () => {
                 <strong>2024: </strong>Developed automated apps at Northstar, streamlining data management and enhancing decision-making.
               </p>
               <p>
-                <strong>2024: </strong>Completed a master’s thesis on AI-driven portfolio strategies, receiving an A grade.
+                <strong>2024: </strong>Completed a master’s thesis on AI-driven Faq strategies, receiving an A grade.
               </p>
               <p>
                 <strong>2021: </strong> Valedictorian in International Business, GPA 3.82/4, Mathematics Olympiad prize.

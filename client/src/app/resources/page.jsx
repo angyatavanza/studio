@@ -1,6 +1,6 @@
 import React from 'react';
 import MiniCard from '../../components/miniCard';
-import HeroPortfolio from '../../components/HeroBanner2';
+import HeroBanner2 from '../../components/HeroBanner2';
 import portfolioInfo from '../../constants/portfolioInfo'; // Import portfolioInfo
 
 function ResourcesPage() {
@@ -22,7 +22,7 @@ function ResourcesPage() {
 
   return (
     <div className="mx-auto">
-      <HeroPortfolio />
+      <HeroBanner2 />
       <div className="mx-auto max-w-screen-2xl px-4 py-2 md:py-10 md:px-8 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {/* Render projects row-wise, left to right */}

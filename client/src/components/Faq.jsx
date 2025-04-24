@@ -1,16 +1,16 @@
-// Portfolio.js
+// Faq.js
 import React from 'react';
 import Card from './Card';
 import ReverseCard from './ReverseCard';
-import Quotes from './quotes';
+import Quotes from './FeaturedEvent';
 import { useNavigate } from 'react-router-dom';
 
-export default function Portfolio() {
+export default function Faq() {
     const navigate = useNavigate();
 
     const handleReadMoreClick = () => {
         window.scrollTo(0, 0); // Scroll to the top
-        navigate("/portfolio"); // Navigate to the portfolio page
+        navigate("/Faq"); // Navigate to the Faq page
     };
 
     return (

@@ -10,7 +10,7 @@ const PurposePage = () => {
       >
         <p>
           We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
+          best value to our staff. The primary way we do that is by re-using
           the same five projects we’ve been developing for the past decade.
         </p>
       </PageIntro>

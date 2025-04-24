@@ -1,6 +1,6 @@
 // Hero.jsx
 import React from 'react';
-import Banner from './BannerText';
+import HeroBannerText from './HeroBannerText';
 import video from '../../public/IntroVid.mp4';
 
 const Hero = () => {
@@ -18,10 +18,11 @@ const Hero = () => {
 
       {/* About Section */}
       <div className="relative ">
-        <Banner />
+        <HeroBannerText />
       </div>
     </section>
   );
 };
 
 export default Hero;
+h

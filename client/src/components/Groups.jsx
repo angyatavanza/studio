@@ -6,7 +6,7 @@ import StylizedImage from "./StylizedImage";
 import imageLaptop from "../images/laptop.jpg";
 import List, { ListItem } from "./List";
 
-const Services = () => {
+const Groups = () => {
   return (
     <>
       <SectionIntro
@@ -55,4 +55,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Groups;

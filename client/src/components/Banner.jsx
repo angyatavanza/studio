@@ -8,7 +8,7 @@ const HeroBanner = () => {
         className="min-h-[35vh] md:min-h-[75vh] bg-center bg-cover bg-no-repeat relative rounded-xl"
         style={{
           backgroundImage:
-            "url('https://www.bing.com/th/id/OBTQ.BT96F9B2E0B3FDB24284C9C5E4DE6C9D514FF7831C760A60DF55AC8C6632CD5DEC?qlt=90&dpr=1.3&pid=InlineBlock')",
+            "url('https://images.unsplash.com/photo-1634479999416-08154adf73c1?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
         }}
       >
         <div className="absolute bottom-0 start-0 end-0 max-w-lg text-center mx-auto p-6 md:start-auto md:text-start md:mx-0">
@@ -16,16 +16,16 @@ const HeroBanner = () => {
           <div className="px-5 py-4 inline-block bg-white rounded-lg md:p-7 dark:bg-neutral-800">
             <div className="">
               <h3 className="text-lg font-bold text-gray-800 sm:text-2xl dark:text-neutral-200">
-              Welcome to my Faq
+                Welcome to my Blog
               </h3>
               <p className="mt-2 text-gray-800 dark:text-neutral-200 hidden md:block">
-              I create easy-to-use apps with data and AI to make work simpler and spark fresh ideas.
+              I share practical insights on data, software, and AI to simplify workflows and drive innovation.
               </p>
             </div>
 
             <div className="md:mt-10">
               <a
-                href="https://github.com/ducbinhminhman"
+                href="https://medium.com/@bnhminh_38309"
                 className="flex items-center gap-2 text-sm font-medium text-gray-800 hover:text-gray-500 focus:outline-none focus:text-gray-500 dark:text-white dark:hover:text-neutral-400 dark:focus:text-neutral-400"
               >
                 <svg

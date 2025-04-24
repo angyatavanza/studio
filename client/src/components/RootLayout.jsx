@@ -9,7 +9,6 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
 import Button from "./Button";
 import clsx from "clsx";
-import Offices from "./Offices";
 import ServiceTimes from "./ServiceTimes";
 import SocialMedia from "./SocialMedia";
 import Footer from "./Footer";
@@ -195,7 +194,7 @@ const RootLayoutInner = ({ children }) => {
                     <h2 className="font-display text-base font-semibold text-white">
                       Nuestra ubicacion y tiempos de servicios
                     </h2>
-                    <Offices
+                    <ServiceTimes
                       invert
                       className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2"
                     />
