@@ -4,6 +4,7 @@ import clsx from "clsx";
 import Container from "./Container";
 import FadeIn from "./FadeIn";
 import Image from "next/image";
+import Button from "./Button";
 
 const Testimonials = ({ children, client, className }) => {
   return (

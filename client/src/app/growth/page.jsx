@@ -1,8 +1,8 @@
-import Build from "../../components/Build";
+import Step2 from "../../components/Step2";
 import ContactSection from "@/components/ContactSection";
-import Deliver from "@/components/Deliver";
-import Discover from "@/components/Discover";
-import Transform from "../../components/Transform";
+import Step3 from "@/components/Step3";
+import Step1 from "@/components/Step1";
+import Step4 from "../../components/Step4";
 import PageIntro from "@/components/PageIntro";
 import Vision from "../../components/Vision";
 import React from "react";
@@ -19,17 +19,15 @@ const GrowthPage = () => {
         </p>
       </PageIntro>
       <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
-        {/* Discover */}
-        <Discover />
-        {/* Build */}
-        <Build />
-        {/* Deliver */}
-        <Deliver />
-         {/* Transform*/}
-         <Transform />
+        {/* Step1 Discover */}
+        <Step1 />
+        {/* Step2  */}
+        <Step2 />
+        {/* Step2  */}
+        <Step3 />
+         {/* Step2 */}
+         <Step4 />
       </div>
-      {/* Vision */}
-      <Vision />
       <ContactSection />
     </>
   );

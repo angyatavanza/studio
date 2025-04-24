@@ -6,12 +6,10 @@ const ExperiencesPage = () => {
     <>
       <PageIntro
         eyebrow="Experiencias"
-        title="Proven solutions for real-world problems."
+        title="Recent Experiences"
       >
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+        Bievenido a La Iglesia Bautista La Voz de La Esperanza, una iglesia localizada en Charlotte, Carolina del Norte.
         </p>
       </PageIntro>
     </>

@@ -3,7 +3,7 @@ import Section from "./Section";
 import imageLaptop from "@/images/laptop.jpg";
 import Blockquote from "./Blockquote";
 
-const Build = () => {
+const Step2 = () => {
   return (
     <Section title="Desarolla tu fe" image={{ src: imageLaptop, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
@@ -38,4 +38,4 @@ const Build = () => {
   );
 };
 
-export default Build;
+export default Step2;

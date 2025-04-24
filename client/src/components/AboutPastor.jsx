@@ -1,7 +1,7 @@
 // About.js
 import React from 'react';
 
-const About = () => {
+const AboutPastor = () => {
   return (
     <section>
       {/* Container */}
@@ -66,19 +66,6 @@ const About = () => {
                 />
                 <p>Email Me</p>
               </a>
-              <a
-                href={require('../assets/resume.pdf')} // Link to your resume PDF file
-                target="_blank" // Open in a new tab
-                rel="noopener noreferrer" // Security best practice for external links
-                className="flex gap-4 rounded-md border border-solid border-black px-6 py-3"
-              >
-                <img
-                  src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b14704c8616ad7ba080fe0_Note.svg"
-                  alt=""
-                  className="inline-block"
-                />
-                <p>Resume</p>
-              </a>
             </div>
           </div>
           {/* Image Placeholder */}
@@ -95,4 +82,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutPastor;

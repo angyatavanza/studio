@@ -29,7 +29,7 @@ const Mission = () => {
           <GridListItem title="Atmósfera de Aceptación" invert>
             Creemos que todas las personas son importantes  para Dios y por lo tanto le deben importar a la iglesia. Como resultado la iglesia debe proyectar una atmósfera aceptación y amor al prójimo (Jn 3:16). 
           </GridListItem>
-          <GridListItem title="Orientados al discipulado" invert>
+          <GridListItem title="Orientados al Discipulado" invert>
             Creemos en la completa devoción a Cristo, 
             a través del discipulado como la norma para todo creyente. El llegar
             a ser como Jesús debe ser una prioridad para cada persona que se integra
@@ -49,7 +49,7 @@ const Mission = () => {
       </Container>
       <Container className="mt-16">
         <GridList>
-          <GridListItem title="Variedad en sus ministerios" invert>
+          <GridListItem title="Variedad en Sus Ministerios" invert>
             Se valoran los ministerios que sean compatible para la gente y que se ajusten para los de la iglesia. Creemos que todos los ministerios “son una alta prioridad para la iglesia”. Ministerios comunitarios, ministerios con los niños, adolescentes, jóvenes, adultos, y los que la iglesia pueda implementar. Queremos ser un centro de evangelización, edificación y equipamiento que exista para motivar a ejercer los dones a través de los ministerios (Hch 2:42-46). 
           </GridListItem>
           <GridListItem title="Enseñanza Bíblica (Grupos Pequeños)" invert>

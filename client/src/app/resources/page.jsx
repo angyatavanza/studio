@@ -1,6 +1,6 @@
 import React from 'react';
 import MiniCard from '../../components/miniCard';
-import HeroPortfolio from '../../components/HeroPortfolio';
+import HeroPortfolio from '../../components/HeroBanner2';
 import portfolioInfo from '../../constants/portfolioInfo'; // Import portfolioInfo
 
 function ResourcesPage() {

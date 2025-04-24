@@ -1,6 +1,6 @@
 import React from 'react';
 import MiniCard from '../../components/miniCard';
-import BlogHero from '../../components/BlogHero';
+import HeroBanner from '../../components/HeroBanner';
 import blogInfo from '../../constants/blogInfo'; // Import blogInfo
 
 function AllExperiencesPage() {
@@ -19,7 +19,7 @@ function AllExperiencesPage() {
 
   return (
     <div className="mx-auto">
-      <BlogHero />
+      <HeroBanner />
       <div className="mx-auto max-w-screen-2xl px-4 py-2 md:py-10 md:px-8 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {/* First Row: Display pinned articles in columns 1, 2, and 3 */}

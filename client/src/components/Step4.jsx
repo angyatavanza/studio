@@ -1,20 +1,20 @@
 import React from "react";
 import Section from "./Section";
-import imageMeeting from "@/images/meeting.jpg";
+import imageMeeting from "@/images/church/Congregation_IMG_1140.jpeg";
 import List, { ListItem } from "./List";
 
-const Deliver = () => {
+const Step4 = () => {
   return (
-    <Section title="Define tu proposito" image={{ src: imageMeeting, shape: 1 }}>
+    <Section title="Transforma tu vida" image={{ src: imageMeeting, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{" "}
+        Ayudará a desarrollar un estilo de vida que glorifique a Dios compartiendo su{" "}
           <strong className="font-semibold text-neutral-950">
-            requirements
+            amor
           </strong>
-          . This allows us to increase the budget a final time before launch.
+          . También podrás descubrir el propósito de tu vida e integrarte al equipo de trabajo para llevar acabo tu misión de vida.
         </p>
+        {/* Longer description
         <p>
           Despite largely using pre-built components, most of the{" "}
           <strong className="font-semibold text-neutral-950">progress</strong>{" "}
@@ -34,6 +34,7 @@ const Deliver = () => {
           </strong>{" "}
           retainer.
         </p>
+        */}
       </div>
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
         Included in this phase
@@ -56,4 +57,4 @@ const Deliver = () => {
   );
 };
 
-export default Deliver;
+export default Step4;

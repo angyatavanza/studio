@@ -3,9 +3,9 @@ import Section from "./Section";
 import imageMeeting from "@/images/meeting.jpg";
 import List, { ListItem } from "./List";
 
-const Transform = () => {
+const Step3 = () => {
   return (
-    <Section title="Transforma tu vida" image={{ src: imageMeeting, shape: 1 }}>
+    <Section title="Define tu proposito" image={{ src: imageMeeting, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           About halfway through the Build phase, we push each project out by 6
@@ -56,4 +56,4 @@ const Transform = () => {
   );
 };
 
-export default Transform;
+export default Step3;

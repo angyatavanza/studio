@@ -4,6 +4,7 @@ import Mission from "../../components/Mission";
 import PageIntro from "@/components/PageIntro";
 import Vision from "../../components/Vision";
 import { StatList, StatListItem } from "@/components/StatList";
+import AboutPastor from "@/components/AboutPastor";
 import React from "react";
 
 const AboutPage = () => {
