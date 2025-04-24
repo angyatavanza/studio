@@ -30,6 +30,7 @@ const AboutPage = () => {
       </Container>
       <Mission />
       <Vision />
+      <Staff />
       <ContactSection />
     </>
   );
