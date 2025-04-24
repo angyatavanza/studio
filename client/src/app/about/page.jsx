@@ -1,41 +1,34 @@
 import ContactSection from "@/components/ContactSection";
 import Container from "../../components/Container";
-import Cultures from "../../components/Cultures";
+import Mission from "../../components/Mission";
 import PageIntro from "@/components/PageIntro";
+import Vision from "../../components/Vision";
 import { StatList, StatListItem } from "@/components/StatList";
 import React from "react";
 
 const AboutPage = () => {
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="Sobre Nosotros" title="Somos Una Iglesia Comprometida a Ser Una Voz de Esperanza">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          La Iglesia Bautista La Voz de La Esperanza como su nombre lo indica, es una Iglesia que lleva esperanza a la ciudad de Charlotte y sus alrededores. Si tu estas buscando un lugar donde congregarte y alabar a Dios, nuestra iglesia esta abierta para todos los visitantes.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
           </p>
         </div>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
+          <StatListItem value="→" label="Nuestro Propósito, Visión y Valores" />
+          <StatListItem value="→" label="Nuestro Equipo" />
+          <StatListItem value="→" label="Nuestro Pastor" />
         </StatList>
       </Container>
-      <Cultures />
+      <Mission />
+      <Vision />
       <ContactSection />
     </>
   );

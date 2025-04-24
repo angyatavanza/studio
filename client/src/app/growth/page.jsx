@@ -4,7 +4,7 @@ import Deliver from "@/components/Deliver";
 import Discover from "@/components/Discover";
 import Transform from "../../components/Transform";
 import PageIntro from "@/components/PageIntro";
-import Values from "../../components/Values";
+import Vision from "../../components/Vision";
 import React from "react";
 
 const GrowthPage = () => {
@@ -28,8 +28,8 @@ const GrowthPage = () => {
          {/* Transform*/}
          <Transform />
       </div>
-      {/* Values */}
-      <Values />
+      {/* Vision */}
+      <Vision />
       <ContactSection />
     </>
   );

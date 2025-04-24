@@ -1,6 +1,6 @@
 import ContactSection from "@/components/ContactSection";
 import Container from "../../components/Container";
-import Cultures from "../../components/Cultures";
+import Mission from "../../components/Mission";
 import PageIntro from "@/components/PageIntro";
 import { StatList, StatListItem } from "@/components/StatList";
 import React from "react";
@@ -35,7 +35,7 @@ const GivePage = () => {
           <StatListItem value="$25M" label="Invoices billed" />
         </StatList>
       </Container>
-      <Cultures />
+      <Mission />
       <ContactSection />
     </>
   );
