@@ -10,7 +10,7 @@ const Groups = () => {
   return (
     <>
       <SectionIntro
-        eyebrow="Ministerios"
+        eyebrow="Grupos"
         title="Fuimos creados para estar en comunidad unos con otros."
         className="mt-24 sm:mt-32 lg:mt-40"
       >

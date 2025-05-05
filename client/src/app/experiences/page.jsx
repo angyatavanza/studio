@@ -1,12 +1,12 @@
 import PageIntro from "@/components/PageIntro";
 import React from "react";
 
-const ExperiencesPage = () => {
+const MessagesPage = () => {
   return (
     <>
       <PageIntro
         eyebrow="Experiencias"
-        title="Recent Experiences"
+        title="Recent Messages"
       >
         <p>
         Bievenido a La Iglesia Bautista La Voz de La Esperanza, una iglesia localizada en Charlotte, Carolina del Norte.
@@ -16,4 +16,4 @@ const ExperiencesPage = () => {
   );
 };
 
-export default ExperiencesPage;
+export default MessagesPage;

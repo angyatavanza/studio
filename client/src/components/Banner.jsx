@@ -16,7 +16,7 @@ const HeroBanner = () => {
           <div className="px-5 py-4 inline-block bg-white rounded-lg md:p-7 dark:bg-neutral-800">
             <div className="">
               <h3 className="text-lg font-bold text-gray-800 sm:text-2xl dark:text-neutral-200">
-                Welcome to my Blog
+                Welcome to my Experience
               </h3>
               <p className="mt-2 text-gray-800 dark:text-neutral-200 hidden md:block">
               I share practical insights on data, software, and AI to simplify workflows and drive innovation.

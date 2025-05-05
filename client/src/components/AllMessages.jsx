@@ -1,7 +1,7 @@
-// Blog.js
+// Experience.js
 import React from 'react';
 
-const Blog = () => {
+const AllMessages = () => {
   return (
     <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       {/* Title */}
@@ -93,4 +93,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default AllMessages;

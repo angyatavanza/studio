@@ -1,4 +1,4 @@
-// Blog.js
+// Experience.js
 import React from 'react';
 import Button from './Button';
 import { Link, useNavigate } from 'react-router-dom';
@@ -31,7 +31,7 @@ const Experience = () => {
     <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       {/* Title */}
       <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-        <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-gray-900">Latest Experiences</h2>
+        <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-gray-900">Latest Messages</h2>
         <p className="mt-1 text-lg text-gray-600 inline-flex items-center gap-x-1">
           Stay in the know with insights from industry experts.
           <span 

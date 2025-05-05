@@ -15,7 +15,7 @@ export const navigation = [
   {
     title: "Experiencias",
     links: [
-      { title: "Experiencias", href: "/experiences" },
+      { title: "Experiencias", href: "/messages" },
       { title: "Último Mensaje", href: "/messages/amazonclone" },
       { title: "Tiempos de Servicios", href: "/service-times" },
       {
@@ -24,7 +24,7 @@ export const navigation = [
             Ver Archivo de Mensajes <span aria-hidden="true">&rarr;</span>
           </>
         ),
-        href: "/all-experiences",
+        href: "/all-messages",
       },
     ],
   },
