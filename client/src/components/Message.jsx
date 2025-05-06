@@ -1,6 +1,7 @@
 // Experience.js
 import React from 'react';
 import Button from './Button';
+import Image from "next/image";
 import { Link, useNavigate } from 'react-router-dom';
 
 const experiencePosts = [
