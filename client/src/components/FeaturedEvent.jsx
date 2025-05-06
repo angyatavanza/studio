@@ -15,8 +15,7 @@ export default function FeatEvent() {
           <figure className="mt-10">
             <blockquote className="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
               <p>
-                “I believe the key to solving any problem lies not in the solution, but in understanding the problem itself. Clearly defining the problem is the foundation of my approach. 
-                When I work on projects, I aim to create something valuable, useful, and truly responsive to real needs.”
+                “This is the event section.”
               </p>
             </blockquote>
             <figcaption className="mt-10">

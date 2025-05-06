@@ -1,14 +1,15 @@
 // Blog.js
 import React from 'react';
 import Button from './Button';
+import communityPhoto from "../images/church/congregation-IMG-1038.jpg";
 import { Link, useNavigate } from 'react-router-dom';
 
 const experiencePosts = [
   {
-    title: "Building Beautiful UIs Fast",
-    description: "Create stunning UIs quickly and efficiently with Tailwind CSS component libraries, skipping the hassle of designing from scratch.",
+    title: "Comunidad",
+    description: "Desarrollar relaciones sanas con los demás y con uno mismo",
     link: "https://medium.com/@bnhminh_38309/building-beautiful-uis-fast-how-i-stopped-designing-from-scratch-and-started-using-tailwind-808438f3a755",
-    imageUrl: "https://images.unsplash.com/photo-1730708267873-a8a51afa6f67?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: communityPhoto,
     label: "Latest"
   },
   {
@@ -72,7 +73,7 @@ const Connect = () => {
               <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600">{post.title}</h3>
               <p className="mt-3 text-gray-800">{post.description}</p>
               <p className="mt-5 inline-flex items-center gap-x-1 text-sm text-blue-600 font-medium group-hover:underline">
-                Read more
+                Aprender más
                 <svg className="shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="m9 18 6-6-6-6"/>
                 </svg>
