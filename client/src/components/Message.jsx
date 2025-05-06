@@ -56,7 +56,7 @@ const Experience = () => {
         {experiencePosts.map((post, index) => (
           <a key={index} className="group flex flex-col focus:outline-none" href={post.link}>
             <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-              <img
+              <Image
                 className="absolute top-0 left-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
                 src={post.imageUrl}
                 alt={post.title}

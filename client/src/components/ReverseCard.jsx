@@ -92,7 +92,7 @@ const ReverseCard = () => {
                 className={`${activeTab === tab.id ? 'block' : 'hidden'} p-4 sm:p-0`}
                 role="tabpanel"
               >
-                <img
+                <Image
                   className="shadow-xl shadow-gray-200 rounded-xl"
                   src={tab.imageUrl}
                   alt={tab.title}

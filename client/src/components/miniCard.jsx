@@ -4,7 +4,7 @@ const MiniCard = ({ title, description, imageUrl, link, featureLabel }) => {
   return (
     <div className="relative flex flex-col bg-white border shadow-sm rounded-xl">
       <div className="relative ">
-        <img 
+        <Image 
           className="w-full h-auto rounded-t-xl object-cover object-center transition duration-200 group-hover:scale-110" 
           src={imageUrl} 
           alt={title} 

@@ -1,28 +1,29 @@
 // Blog.js
+import Image from "next/image";
 import React from 'react';
 import Button from './Button';
-import communityPhoto from "../images/church/congregation-IMG-1038.jpg";
+import imageLaptop from "../images/church/congregation-IMG-1038.jpg";
 import { Link, useNavigate } from 'react-router-dom';
 
-const experiencePosts = [
+export const experiencePosts = [
   {
     title: "Comunidad",
     description: "Desarrollar relaciones sanas con los demás y con uno mismo",
     link: "https://medium.com/@bnhminh_38309/building-beautiful-uis-fast-how-i-stopped-designing-from-scratch-and-started-using-tailwind-808438f3a755",
-    image: communityPhoto,
+    imageUrl: imageLaptop,
     label: "Latest"
   },
   {
     title: "Build an AI-Powered Recipe Generator ",
     description: "Leverages OpenAI to generate personalized recipes based on user preferences and ingredients. This hands-on guide combines the power of AI with a user-friendly web app, making cooking easier and more innovative.",
     link: "https://medium.com/@bnhminh_38309/build-an-ai-powered-recipe-generator-with-react-and-express-abc453b1f99c?sk=ba0daff2525b3f3a0fc8956d46297771",
-    imageUrl: "https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+    imageUrl: imageLaptop
   },
   {
     title: "Launching Your Journey in LSTM Stock Predictions",
     description: "Learn how to use LSTM networks for stock price predictions, from data setup to model evaluation, in this beginner-friendly guide to AI in finance.",
     link: "https://medium.com/dev-genius/a-beginners-guide-to-predicting-stock-prices-with-lstm-networks-278070252731?sk=3e6073d85783d250e3a7114ea744b53f",
-    imageUrl: "https://plus.unsplash.com/premium_photo-1701121214648-245e9c86cc92?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    imageUrl: imageLaptop
   }
 ];
 
@@ -57,7 +58,7 @@ const Connect = () => {
         {experiencePosts.map((post, index) => (
           <a key={index} className="group flex flex-col focus:outline-none" href={post.link}>
             <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-              <img
+              <Image
                 className="absolute top-0 left-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
                 src={post.imageUrl}
                 alt={post.title}

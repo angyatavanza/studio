@@ -16,7 +16,7 @@ const AllMessages = () => {
         {/* Card 1 */}
         <a className="group flex flex-col focus:outline-none" href="#">
           <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-            <img
+            <Image
               className="absolute top-0 left-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
               src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
               alt="Studio by Preline"
@@ -44,7 +44,7 @@ const AllMessages = () => {
         {/* Card 2 */}
         <a className="group flex flex-col focus:outline-none" href="#">
           <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-            <img
+            <Image
               className="absolute top-0 left-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
               src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
               alt="Onsite"

@@ -52,7 +52,7 @@ const LatestMessagePage = () => {
               className="mb-6 flex items-center gap-2.5 text-center text-sm font-bold uppercase md:mb-10 lg:mb-12"
             >
               <p>Connect with me</p>
-              <img
+              <Image
                 src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b1465d46adaf3f26099edf_arrow.svg"
                 alt=""
                 className="inline-block"
@@ -64,7 +64,7 @@ const LatestMessagePage = () => {
                 href="mailto:manbinhminh99@gmail.com" // Mailto link to open the default email client
                 className="flex items-center gap-4 rounded-md bg-black px-6 py-3 text-white"
               >
-                <img
+                <Image
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b147043fe6ab404e65635e_Envelope.svg"
                   alt=""
                   className="inline-block"
@@ -77,7 +77,7 @@ const LatestMessagePage = () => {
                 rel="noopener noreferrer" // Security best practice for external links
                 className="flex gap-4 rounded-md border border-solid border-black px-6 py-3"
               >
-                <img
+                <Image
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b14704c8616ad7ba080fe0_Note.svg"
                   alt=""
                   className="inline-block"
@@ -88,7 +88,7 @@ const LatestMessagePage = () => {
           </div>
           {/* Image Placeholder */}
           <div className="min-h-[530px] overflow-hidden rounded-md bg-gray-100">
-            <img
+            <Image
               src={require('../assets/Exterior_IMG_1119.jpg')}
               alt="Minh"
               className="w-full h-full object-cover"
