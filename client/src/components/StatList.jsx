@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Border from "./Border";
 import FadeIn, { FadeInStagger } from "./FadeIn";
 

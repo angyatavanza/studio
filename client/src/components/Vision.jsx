@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import GridPattern from "./GridPattern";
 import SectionIntro from "./SectionIntro";

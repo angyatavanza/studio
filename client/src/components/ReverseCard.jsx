@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from 'react';
 import Pro2 from '../assets/pro2.png';
 

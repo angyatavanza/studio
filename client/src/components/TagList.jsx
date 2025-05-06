@@ -1,3 +1,4 @@
+import Image from "next/image";
 import clsx from "clsx";
 
 export function TagList({ className, children }) {

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import Section from "./Section";
 import imageLaptop from "@/images/laptop.jpg";

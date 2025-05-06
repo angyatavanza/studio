@@ -1,3 +1,5 @@
+
+import Image from "next/image";
 import React from "react";
 import Section from "./Section";
 import imageMeeting from "@/images/church/Congregation_IMG_1140.jpeg";

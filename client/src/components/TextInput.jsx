@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useId } from "react";
 
 const TextInput = ({ label, ...props }) => {
