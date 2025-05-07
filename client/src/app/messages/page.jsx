@@ -1,4 +1,6 @@
 // About.js
+import Image from 'next/image';
+import messagesImage from "@/assets/MinhPic.jpg"
 import React from 'react';
 
 const LatestMessagePage = () => {
@@ -53,7 +55,7 @@ const LatestMessagePage = () => {
             >
               <p>Connect with me</p>
               <Image
-                src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b1465d46adaf3f26099edf_arrow.svg"
+                src= {messagesImage}
                 alt=""
                 className="inline-block"
               />
@@ -65,20 +67,20 @@ const LatestMessagePage = () => {
                 className="flex items-center gap-4 rounded-md bg-black px-6 py-3 text-white"
               >
                 <Image
-                  src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b147043fe6ab404e65635e_Envelope.svg"
+                  src= {messagesImage}
                   alt=""
                   className="inline-block"
                 />
                 <p>Email Me</p>
               </a>
               <a
-                href={require('../assets/resume.pdf')} // Link to your resume PDF file
+                href="mailto:manbinhminh99@gmail.com" // Link to your resume PDF file
                 target="_blank" // Open in a new tab
                 rel="noopener noreferrer" // Security best practice for external links
                 className="flex gap-4 rounded-md border border-solid border-black px-6 py-3"
               >
                 <Image
-                  src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b14704c8616ad7ba080fe0_Note.svg"
+                  src= {messagesImage}
                   alt=""
                   className="inline-block"
                 />
@@ -89,7 +91,7 @@ const LatestMessagePage = () => {
           {/* Image Placeholder */}
           <div className="min-h-[530px] overflow-hidden rounded-md bg-gray-100">
             <Image
-              src={require('../assets/Exterior_IMG_1119.jpg')}
+              src= {messagesImage}
               alt="Minh"
               className="w-full h-full object-cover"
             />

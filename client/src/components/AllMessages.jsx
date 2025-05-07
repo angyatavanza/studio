@@ -1,5 +1,6 @@
 // Experience.js
 import Image from "next/image";
+import imageLaptop from "../images/church/congregation-IMG-1038.jpg";
 import React from 'react';
 
 const AllMessages = () => {
@@ -19,7 +20,7 @@ const AllMessages = () => {
           <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
             <Image
               className="absolute top-0 left-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
-              src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+              src= {imageLaptop}
               alt="Studio by Preline"
             />
             <span className="absolute top-0 right-0 rounded-se-xl rounded-es-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3">
@@ -47,7 +48,7 @@ const AllMessages = () => {
           <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
             <Image
               className="absolute top-0 left-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
-              src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+              src={imageLaptop}
               alt="Onsite"
             />
           </div>
