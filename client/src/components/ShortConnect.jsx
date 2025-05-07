@@ -5,7 +5,7 @@ import Button from './Button';
 import imageLaptop from "../images/church/congregation-IMG-1038.jpg";
 import { Link, useNavigate } from 'react-router-dom';
 
-export const experiencePosts = [
+export const messagePosts = [
   {
     title: "Comunidad",
     description: "Desarrollar relaciones sanas con los demás y con uno mismo",
@@ -55,7 +55,7 @@ const Connect = () => {
 
       {/* Grid */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {experiencePosts.map((post, index) => (
+        {messagePosts.map((post, index) => (
           <a key={index} className="group flex flex-col focus:outline-none" href={post.link}>
             <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <Image

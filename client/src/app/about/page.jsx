@@ -1,5 +1,6 @@
 import ContactSection from "@/components/ContactSection";
 import Container from "../../components/Container";
+import Staff from "../../components/Staff"
 import Mission from "../../components/Mission";
 import PageIntro from "@/components/PageIntro";
 import Vision from "../../components/Vision";

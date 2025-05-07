@@ -1,4 +1,4 @@
-// Experience.js
+// Message.js
 import React from 'react';
 import Button from './Button';
 import Image from "next/image";
@@ -6,7 +6,7 @@ import imageLaptop from "../images/church/congregation-IMG-1038.jpg";
 
 import { Link, useNavigate } from 'react-router-dom';
 
-const experiencePosts = [
+const messagePosts = [
   {
     title: "Building Beautiful UIs Fast",
     description: "Create stunning UIs quickly and efficiently with Tailwind CSS component libraries, skipping the hassle of designing from scratch.",
@@ -28,7 +28,7 @@ const experiencePosts = [
   }
 ];
 
-const Experience = () => {
+const Message = () => {
 
   return (
     <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
@@ -56,7 +56,7 @@ const Experience = () => {
 
       {/* Grid */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {experiencePosts.map((post, index) => (
+        {messagePosts.map((post, index) => (
           <a key={index} className="group flex flex-col focus:outline-none" href={post.link}>
             <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <Image
@@ -89,4 +89,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Message;

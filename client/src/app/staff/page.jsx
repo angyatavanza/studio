@@ -5,7 +5,7 @@ const StaffPage = () => {
   return (
     <>
       <PageIntro
-        eyebrow="Experiencias"
+        eyebrow="Mensajes"
         title="Proven solutions for real-world problems."
       >
         <p>

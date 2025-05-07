@@ -1,4 +1,4 @@
-// Experience.js
+// Message.js
 import Image from "next/image";
 import imageLaptop from "../images/church/congregation-IMG-1038.jpg";
 import React from 'react';
