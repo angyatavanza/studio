@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Section from "./Section";
-import imageMeeting from "@/images/meeting.jpg";
+import imageMeeting from "@/images/church/Congregation-IMG-1140.jpg";
 import List, { ListItem } from "./List";
 
 const Step3 = () => {
