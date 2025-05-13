@@ -7,7 +7,7 @@ import PageIntro from "@/components/PageIntro";
 import Vision from "../../components/Vision";
 import React from "react";
 
-const GrowthPage = () => {
+const NextStepsPage = () => {
   return (
     <>
       <PageIntro eyebrow="Nuestro proceso" title="Cómo trabajamos">
@@ -33,4 +33,4 @@ const GrowthPage = () => {
   );
 };
 
-export default GrowthPage;
+export default NextStepsPage;
