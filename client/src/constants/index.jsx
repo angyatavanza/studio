@@ -31,7 +31,7 @@ export const navigation = [
   {
     title: "Conectate",
     links: [
-      { title: "Jornada de Crecimiento", href: "/growth" },
+      { title: "Jornada de Crecimiento", href: "/nextsteps" },
       { title: "Grupos", href: "/groups" },
       { title: "Servir", href: "/serve" },
       { title: "Eventos", href: "/events" }
